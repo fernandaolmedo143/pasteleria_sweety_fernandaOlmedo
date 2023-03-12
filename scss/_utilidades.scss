@@ -1,0 +1,45 @@
+
+main{
+    min-height: calc(100vh - (78px + 92px));
+    background-color: $color-main;
+}
+.colorSombra{
+    box-shadow: 0 0 15px 10px $color-rosa-secundario;
+    .detallesTitulos{
+        color: $color-rosa-secundario;
+        font-family: $fuente;
+        font-size: map-get($tamanos-fuentes,rem-2-5);
+        font-weight: bold;
+    }
+}
+.detallesTitulos2{
+    color: $color-rosa-secundario;
+    font-family: $fuente;
+    font-size: map-get($tamanos-fuentes,rem-1-8);
+    font-weight: bold;
+    font-style: italic;
+}
+.textoTitulos{
+    font-family: $fuente;
+    font-size: map-get($tamanos-fuentes,rem-1-5);
+    color: $color-rosa-secundario;
+    font-style: italic;
+}
+.textoGenerales{
+    font-family: $fuente;
+    font-size: map-get($tamanos-fuentes,rem-1);
+}
+.cardProdCursos{
+    background-color: $color-fondo-blanco;
+    color: $color-rosa-secundario;
+    width: 90%;
+    .iconoWhatsappCard{
+        font-size: map-get($tamanos-fuentes,rem-1-5);
+        color: $color-icono-whatsapp;
+    }
+    .linkFormulario{
+        color: $color-rosa-secundario;
+        text-decoration: none;
+        font-weight: bold;
+    }
+}

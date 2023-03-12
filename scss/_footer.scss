@@ -1,0 +1,33 @@
+.detallesFooter{
+    background-color: $color-rosa-secundario;
+    color: $color-fuente-blanco;
+    line-height: 0.5;
+    .row{
+        .col-12{
+            .icono{
+                font-size: map-get($tamanos-fuentes,rem-2);
+                color: $color-fuente-blanco;
+                margin:5px;
+                padding: 1px;
+            }
+            .iconoWhatsapp{
+                font-size: map-get($tamanos-fuentes,rem-2);
+                color: $color-fuente-blanco;
+                background: $color-icono-whatsapp;
+                margin-top: 1%;
+                padding: 3px;
+                position:fixed;
+                bottom: 40px;
+                right: 25px;
+                animation-name: rotar;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in;
+                animation-duration: 4s;
+            }
+        }
+    }
+
+}
+
+
+

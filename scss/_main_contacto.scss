@@ -1,0 +1,25 @@
+
+section{
+    .container{
+        .colorBordeForm{
+            border-color: $color-rosa-terciario!important;
+            .input-group-text{
+                background: $color-rosa-terciario;
+            }
+        }
+        .row{
+            .col{
+                .botonForm{
+                    background-color: $color-rosa-terciario;
+                    border-color: $color-rosa-terciario;
+                    color: $color-fuente-blanco;
+                    text-shadow: 2px 2px 2px $color-sombra-rosado;
+                    &:hover{
+                        color: $color-fuente-blanco;
+                        text-shadow: 2px 2px 2px $color-sombra-oscuro;
+                    }
+                }
+            }
+        }
+    }
+}

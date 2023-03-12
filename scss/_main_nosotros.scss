@@ -1,0 +1,24 @@
+.detallesNosotros{
+    background-color: $color-fondo-blanco!important;
+    @include flex-wrap-direction(column);
+    justify-content: center;
+    align-items: center;
+}
+.nombreNosotros{
+    font-family: $fuente;
+    font-size: map-get($tamanos-fuentes,rem-1-8);
+    color: $color-rosa-primario!important;
+    font-weight: bold;
+}
+.fraseNosotros{
+    font-family: $fuente;
+    font-size: map-get($tamanos-fuentes,rem-1-5);
+    color: $color-rosa-primario;
+    font-style: italic;
+    text-align: center;
+}
+.detallesVideos{
+    @include flex-wrap-direction;
+    justify-content: center;
+}
+

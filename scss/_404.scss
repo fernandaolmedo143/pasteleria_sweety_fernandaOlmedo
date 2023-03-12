@@ -1,0 +1,10 @@
+.card404{
+  border-color: rgba(255, 255, 255, 0);
+}
+.volverError{
+  text-decoration: none;
+  font-family: $fuente;
+  font-size: map-get($tamanos-fuentes,rem-2);
+  color: #E54D66;
+  font-weight: bold;
+}

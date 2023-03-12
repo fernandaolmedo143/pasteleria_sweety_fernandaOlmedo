@@ -1,0 +1,5 @@
+@mixin flex-wrap-direction ($direction:row){
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: $direction;
+}

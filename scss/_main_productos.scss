@@ -1,0 +1,26 @@
+section{
+    .container{
+        .row{
+            .animacionProductos{
+                animation: pulsar 4s ease-in-out;
+                animation-iteration-count: infinite;
+            }
+        }
+    }
+}
+.detallesImgProd{
+    @include flex-wrap-direction(column);
+    min-height: 50vh;
+    background: $color-rosa-terciario;
+    border: 6px solid $color-rosa-terciario;
+    border-radius: 10px;
+}
+
+.imgProductos{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0px;
+    border: 0.5px solid $color-rosa-terciario;
+}
+

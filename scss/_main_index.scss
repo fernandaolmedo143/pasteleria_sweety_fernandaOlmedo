@@ -1,0 +1,37 @@
+section{
+    .row{
+        .card{
+            background-color: $color-fuente-blanco;
+            border: 6px solid $color-rosa-primario;
+            padding: 1px;    
+            box-shadow: 3px 5px 5px $color-sombra-oscuro;
+            border-radius: 5px;
+            .card-body{
+                .card-title{
+                    font-family: $fuente;
+                    color: $color-rosa-secundario;
+                    font-size: map-get($tamanos-fuentes,rem-1-5);
+                    font-weight: bold;
+                }
+                .botonCards{
+                    font-family: $fuente;
+                    padding: 6px;
+                    font-size: map-get($tamanos-fuentes,rem-1);
+                    font-weight: bold;
+                    color: $color-rosa-primario;
+                    border: 1px solid $color-rosa-primario;
+                    border-radius: 20px;
+                    &:hover{
+                        color: $color-fuente-blanco;
+                        background-color: $color-rosa-primario;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+    
+
+
