@@ -126,6 +126,9 @@ section .row .card {
     animation-timing-function: ease-in;
     animation-duration: 4s; }
 
+.body_nosotros {
+  overflow-x: hidden; }
+
 .detallesNosotros {
   background-color: white !important;
   display: flex;
