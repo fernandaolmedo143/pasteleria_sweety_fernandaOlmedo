@@ -25,6 +25,10 @@
   100% {
     transform: rotate(0deg); } }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%; }
+
 main {
   min-height: calc(100vh - (78px + 92px));
   background-color: #e3dbcf; }
@@ -125,9 +129,6 @@ section .row .card {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-duration: 4s; }
-
-.body_nosotros {
-  overflow-x: hidden; }
 
 .detallesNosotros {
   background-color: white !important;

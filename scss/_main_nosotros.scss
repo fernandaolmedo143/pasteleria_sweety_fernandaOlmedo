@@ -1,6 +1,3 @@
-.body_nosotros{
-    overflow-x: hidden;
-}
 .detallesNosotros{
     background-color: $color-fondo-blanco!important;
     @include flex-wrap-direction(column);

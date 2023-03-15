@@ -1,4 +1,9 @@
 
+html, body{
+    overflow-x: hidden;
+    max-width: 100%;
+
+}
 main{
     min-height: calc(100vh - (78px + 92px));
     background-color: $color-main;
